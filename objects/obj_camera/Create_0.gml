@@ -1,4 +1,5 @@
 
+nbView = 0;
 
 var _w = 1900;
 var _h = 1000;

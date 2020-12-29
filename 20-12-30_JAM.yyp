@@ -1,6 +1,9 @@
 {
   "resources": [
+    {"id":{"name":"obj_player_03","path":"objects/obj_player_03/obj_player_03.yy",},"order":8,},
     {"id":{"name":"bg_prog","path":"sprites/bg_prog/bg_prog.yy",},"order":0,},
+    {"id":{"name":"obj_player_02","path":"objects/obj_player_02/obj_player_02.yy",},"order":7,},
+    {"id":{"name":"obj_player_04","path":"objects/obj_player_04/obj_player_04.yy",},"order":9,},
     {"id":{"name":"obj_player_01","path":"objects/obj_player_01/obj_player_01.yy",},"order":1,},
     {"id":{"name":"obj_Comp_Colision","path":"objects/obj_Comp_Colision/obj_Comp_Colision.yy",},"order":5,},
     {"id":{"name":"obj_sol","path":"objects/obj_sol/obj_sol.yy",},"order":6,},
