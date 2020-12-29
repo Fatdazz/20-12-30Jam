@@ -1,7 +1,7 @@
 
 
-var _w = 50;
-var _h = 500;
+var _w = 1900;
+var _h = 1000;
 
 // Set up camera for view[0] (player 1)
 view_enabled = true;
@@ -10,7 +10,7 @@ view_xport[0] = 0;
 view_yport[0] = 0;
 view_wport[0] = _w; // We want the window to be 960x540 so set the view port to half the width
 view_hport[0] = _h;
-view_camera[0] = camera_create_view(0, 0, _w / 2, _h);
+view_camera[0] = camera_create_view(0, 0, _w , _h);
 
 
 // Set up camera for view[0] (player 2)
@@ -48,4 +48,4 @@ view_camera[0] = camera_create_view(0, 0, _w / 2, _h);
 
 
 window_set_rectangle(0,0,1900,1000);
-
+surface_resize(application_surface, _w, _h);
