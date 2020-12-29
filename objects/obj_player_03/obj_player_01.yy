@@ -27,9 +27,7 @@
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_player_01","path":"objects/obj_player_01/obj_player_01.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
-  "overriddenProperties": [
-    {"propertyId":{"name":"actif","path":"objects/obj_player_g/obj_player_g.yy",},"objectId":{"name":"obj_player_g","path":"objects/obj_player_g/obj_player_g.yy",},"value":"True","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-  ],
+  "overriddenProperties": [],
   "parent": {
     "name": "Objets",
     "path": "folders/Objets.yy",
