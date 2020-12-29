@@ -4,6 +4,7 @@
     {"id":{"name":"obj_player_01","path":"objects/obj_player_01/obj_player_01.yy",},"order":1,},
     {"id":{"name":"obj_player_g","path":"objects/obj_player_g/obj_player_g.yy",},"order":2,},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"order":0,},
+    {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},"order":1,},
     {"id":{"name":"Pièce1","path":"rooms/Pièce1/Pièce1.yy",},"order":0,},
   ],
   "Options": [
