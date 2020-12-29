@@ -3,11 +3,11 @@
 
 
 function get_input_key(){
-	jump = false;
+	//jump = false;
 	if( keyboard_check(vk_left)) hspeed = -walk_speed;
 	if( keyboard_check(vk_right)) hspeed = walk_speed;
-	if( keyboard_check_pressed(vk_up) ){ jump = true; jlock = false; alarm[0] = 10;}	
-	if( keyboard_check_released(vk_up)){ jump = false;}
+	if( keyboard_check_pressed(vk_space) ){ jump = true; alarm[0] = jumpTime}	
+	//if( keyboard_check_released(vk_space)){ jump = false;}
 }
 
 function get_input_(){

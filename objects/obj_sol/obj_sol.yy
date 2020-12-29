@@ -3,7 +3,7 @@
     "name": "spr_sol",
     "path": "sprites/spr_sol/spr_sol.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
