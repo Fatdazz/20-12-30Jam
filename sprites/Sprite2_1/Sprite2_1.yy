@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7c2321b7-ba78-464d-8e1e-aa715718f3dc","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "20-12-30_JAM",
-    "path": "20-12-30_JAM.yyp",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "Sprite2_1",
