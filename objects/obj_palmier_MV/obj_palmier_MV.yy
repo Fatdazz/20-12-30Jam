@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_palmier",
-    "path": "sprites/spr_palmier/spr_palmier.yy",
+    "name": "spr_palmier_MV",
+    "path": "sprites/spr_palmier_MV/spr_palmier_MV.yy",
   },
   "solid": false,
   "visible": true,

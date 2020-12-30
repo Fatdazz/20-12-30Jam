@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_crabe1",
-    "path": "sprites/spr_crabe1/spr_crabe1.yy",
+    "name": "spr_crabe_BMV",
+    "path": "sprites/spr_crabe_BMV/spr_crabe_BMV.yy",
   },
   "solid": false,
   "visible": true,

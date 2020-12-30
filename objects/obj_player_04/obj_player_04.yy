@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_crabe4",
-    "path": "sprites/spr_crabe4/spr_crabe4.yy",
+    "name": "spr_crabe_B",
+    "path": "sprites/spr_crabe_B/spr_crabe_B.yy",
   },
   "solid": false,
   "visible": true,
