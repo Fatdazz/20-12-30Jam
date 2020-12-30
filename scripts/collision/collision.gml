@@ -3,17 +3,17 @@
 function moveCollision(_obj) 
 {
 	
-	
-	while(place_meeting(x, y , _obj)){
-		//show_debug_message(" g > 0    : " +string(vspeed))
-		if (vspeed == 0) vspeed =+1; 
-		y -= sign(vspeed);
+	var u = vspeed + gravity;
+	while(place_meeting(x, y + u, _obj)){
+		//show_debug_message(" collision speed    : " + string(u))
+		if (u == 0) u =+1; 
+		y -= sign(u);
 		//gravity = 0;
 	}
 
-	while(place_meeting(x, y, _obj)){
+	while(place_meeting(x + hspeed, y, _obj)){
 		if (hspeed == 0) hspeed =+1; 
-		show_debug_message("jes suis X ");
+		//show_debug_message("jes suis X ");
 		x -= sign(hspeed);
 	}
 

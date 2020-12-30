@@ -13,3 +13,21 @@ if(jump){ vspeed -= jump_speed;// * curveJumpAcc;
 vspeed = sign(vspeed) * min(vspeedMax, abs(vspeed));
 hspeed = sign(hspeed) * min(hspeedMax, abs(hspeed));
 
+
+moveCollision(obj_Comp_Colision);
+
+//show_debug_message("Etape == > g : " + string(gravity) + "     hspeed : " +string(vspeed));
+
+	
+	
+if abs(speed) > 0{
+    friction = friction_player;
+	//friction = 0.1;
+    }
+else 
+    {
+    friction = 0;
+    }
+	
+	
+	
