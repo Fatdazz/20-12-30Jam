@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite2",
-    "path": "sprites/Sprite2/Sprite2.yy",
+    "name": "spr_crabe3",
+    "path": "sprites/spr_crabe3/spr_crabe3.yy",
   },
   "solid": false,
   "visible": true,

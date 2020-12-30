@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "spr_crabe4",
-    "path": "sprites/spr_crabe4/spr_crabe4.yy",
+    "name": "spr_oursin",
+    "path": "sprites/spr_oursin/spr_oursin.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_player_g",
-    "path": "objects/obj_player_g/obj_player_g.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -23,9 +20,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_player_04","path":"objects/obj_player_04/obj_player_04.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -33,7 +28,7 @@
     "path": "folders/Objets.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_player_04",
+  "name": "obj_oursin",
   "tags": [],
   "resourceType": "GMObject",
 }
