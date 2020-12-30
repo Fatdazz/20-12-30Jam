@@ -5,6 +5,7 @@
 if !place_meeting(x, y + sprite_height/2 + 1, obj_Comp_Colision)
     {
     gravity = gravity_player;
+	//gravity = 2;
     }
 else
     {
@@ -15,6 +16,7 @@ else
 if abs(speed) > 0
     {
     friction = friction_player;
+	//friction = 0.1;
     }
 else
     {

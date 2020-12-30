@@ -6,6 +6,13 @@ var curveJumpChanel = animcurve_get_channel(curveJumpStruct,"acc");
 var curveJumpAcc = animcurve_channel_evaluate(curveJumpChanel,(jumpTime - alarm[0])/10); 
 
 
-if(jump){ vspeed = -jump_speed * curveJumpAcc;}
+if(jump){ vspeed -= jump_speed;// * curveJumpAcc;
+	
+	}
+	
 
 moveCollision(obj_Comp_Colision);
+
+vspeed = sign(vspeed) * min(vspeedMax, abs(vspeed));
+hspeed = sign(hspeed) * min(hspeedMax, abs(hspeed));
+//speed = min(speedMax, speed);
