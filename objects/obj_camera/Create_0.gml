@@ -29,6 +29,7 @@ view_wport[1] = _w;
 view_hport[1] = _h/2;
 view_camera[1] = camera_create_view(0, 0, _w, _h/2);
 
+camera_set_view_pos(view_camera[1], 0, 0);
 //// Set up camera for view[0] (player 1)
 
 view_visible[2] = false;

@@ -13,17 +13,18 @@ for(var i=0; i< 4; i++){
 for(var i = 0; i < nbView; i++){
 
 	var _player = instance_find(obj_player_g,i);
+	
 	if(_player.x > x + _w*(1-deltaW)){ x+= _player.x - ( x + _w*(1-deltaW)); }
 	if(_player.x < x + _w*deltaW){x-= (x + _w*deltaW) - _player.x }
 	var _y = 0;
 	var _yCam = camera_get_view_y(view_camera[0]);
 	var _hCam = camera_get_view_height(view_camera[i]);
 	
-	if(_player.y > _yCam + _hCam*(1-deltaH)){_yCam += _player.y - (_yCam+_hCam*deltaH);}
+	if(_player.y > _yCam + _hCam*(1-deltaH)){ _yCam  +=_player.y - (_yCam +_hCam*(1-deltaH)); show_debug_message(" je suis ") }
 	if(_player.y < _yCam + _hCam*deltaH){    _yCam -= (_yCam + _hCam*deltaH) -_player.y; }
 	
 	
-	camera_set_view_pos(view_camera[i], x ,_yCam);
+	camera_set_view_pos(view_camera[i], x , _yCam );
 	
 }
 
