@@ -6,9 +6,9 @@ function get_input_key(){
 	//jump = false;
 	if( keyboard_check(vk_left))  hspeed += -walk_speed;
 	if( keyboard_check(vk_right)) hspeed += walk_speed;
-	if( keyboard_check_pressed(vk_space) ){ jump = true; alarm[0] = jumpTime}	
+	if( keyboard_check_pressed(vk_space) && !jumpLock ){ jump = true; alarm[0] = jumpTime; jumpLock = true; show_debug_message(" pressed  : " +string(jumpLock));}	
 	//if( keyboard_check_released(vk_space)){ jump = false;}
-	if(keyboard_check_released(vk_space)){jump = false;} 
+	if(keyboard_check_released(vk_space) ){jump = false;} 
 }	
 
 function get_input_(){
