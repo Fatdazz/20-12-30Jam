@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_tonneau",
-    "path": "sprites/spr_tonneau/spr_tonneau.yy",
+    "name": "spr_oursin",
+    "path": "sprites/spr_oursin/spr_oursin.yy",
   },
   "solid": false,
   "visible": true,
@@ -27,11 +27,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objets",
-    "path": "folders/Objets.yy",
+    "name": "obj_oursin",
+    "path": "folders/Objets/obj_oursin.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_tonneau",
+  "name": "obj_oursin_B",
   "tags": [],
   "resourceType": "GMObject",
 }

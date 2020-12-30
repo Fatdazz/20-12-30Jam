@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7ff4ba85-8be2-427f-bd1d-e45b6d37bbef","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "spr_palmier",
+    "path": "folders/Sprites/spr_palmier.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_palmier",

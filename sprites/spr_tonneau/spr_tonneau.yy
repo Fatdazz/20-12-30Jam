@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"578b9f73-a40f-4d40-9463-3d6cca8ba7bc","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "spr_tonneau",
+    "path": "folders/Sprites/spr_tonneau.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_tonneau",

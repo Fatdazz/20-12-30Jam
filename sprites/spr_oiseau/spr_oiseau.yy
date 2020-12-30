@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"acc96d65-c40f-4c44-8809-8dea73d335a5","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "spr_oiseau",
+    "path": "folders/Sprites/spr_oiseau.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_oiseau",

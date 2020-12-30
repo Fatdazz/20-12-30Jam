@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"79f98f6f-d6ed-468b-8474-4e7efecea976","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "spr_oursin",
+    "path": "folders/Sprites/spr_oursin.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_oursin",

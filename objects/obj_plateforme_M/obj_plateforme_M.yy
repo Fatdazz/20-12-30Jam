@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_oiseau",
-    "path": "sprites/spr_oiseau/spr_oiseau.yy",
+    "name": "spr_plateforme",
+    "path": "sprites/spr_plateforme/spr_plateforme.yy",
   },
   "solid": false,
   "visible": true,
@@ -27,11 +27,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objets",
-    "path": "folders/Objets.yy",
+    "name": "obj_plateforme",
+    "path": "folders/Objets/obj_plateforme.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_oiseau",
+  "name": "obj_plateforme_M",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_rocher",
-    "path": "sprites/spr_rocher/spr_rocher.yy",
+    "name": "spr_oiseau",
+    "path": "sprites/spr_oiseau/spr_oiseau.yy",
   },
   "solid": false,
   "visible": true,
@@ -27,11 +27,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objets",
-    "path": "folders/Objets.yy",
+    "name": "obj_oiseau",
+    "path": "folders/Objets/obj_oiseau.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_rocher",
+  "name": "obj_oiseau_B",
   "tags": [],
   "resourceType": "GMObject",
 }

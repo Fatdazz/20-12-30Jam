@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_plateforme",
-    "path": "sprites/spr_plateforme/spr_plateforme.yy",
+    "name": "spr_rocher",
+    "path": "sprites/spr_rocher/spr_rocher.yy",
   },
   "solid": false,
   "visible": true,
@@ -27,11 +27,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objets",
-    "path": "folders/Objets.yy",
+    "name": "obj_rocher",
+    "path": "folders/Objets/obj_rocher.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_plateforme",
+  "name": "obj_rocher_M",
   "tags": [],
   "resourceType": "GMObject",
 }
