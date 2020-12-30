@@ -32,6 +32,7 @@
     {"id":{"name":"obj_sol","path":"objects/obj_sol/obj_sol.yy",},"order":6,},
     {"id":{"name":"Pierre","path":"rooms/Pierre/Pierre.yy",},"order":1,},
     {"id":{"name":"collision","path":"scripts/collision/collision.yy",},"order":1,},
+    {"id":{"name":"tm_portail_open","path":"timelines/tm_portail_open/tm_portail_open.yy",},"order":0,},
     {"id":{"name":"spr_sol","path":"sprites/spr_sol/spr_sol.yy",},"order":2,},
     {"id":{"name":"obj_player_g","path":"objects/obj_player_g/obj_player_g.yy",},"order":4,},
     {"id":{"name":"obj_oiseau_B","path":"objects/obj_oiseau_B/obj_oiseau_B.yy",},"order":0,},
