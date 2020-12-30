@@ -21,9 +21,9 @@ for(var i=0; i< 4; i++){
 }
 
 //view_camera[0] = camera_create_view(0, 0, _w , _h);
-for(var i = 0; i < nbView+1; i++){
-
-	camera_set_view_pos(view_camera[i],(_max + _min)/2,i);
-
+for(var i = 0; i < nbView; i++){
+	//show_debug_message(i);
+	camera_set_view_pos(view_camera[i],(_max + _min)/2 - 90,_h*i);
+	
 }
 
