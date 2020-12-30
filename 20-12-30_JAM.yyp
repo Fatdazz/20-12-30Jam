@@ -19,6 +19,7 @@
     {"id":{"name":"spr_oiseau","path":"sprites/spr_oiseau/spr_oiseau.yy",},"order":7,},
     {"id":{"name":"spr_plateforme","path":"sprites/spr_plateforme/spr_plateforme.yy",},"order":11,},
     {"id":{"name":"obj_sol","path":"objects/obj_sol/obj_sol.yy",},"order":6,},
+    {"id":{"name":"Pierre","path":"rooms/Pierre/Pierre.yy",},"order":1,},
     {"id":{"name":"collision","path":"scripts/collision/collision.yy",},"order":1,},
     {"id":{"name":"spr_sol","path":"sprites/spr_sol/spr_sol.yy",},"order":2,},
     {"id":{"name":"obj_player_g","path":"objects/obj_player_g/obj_player_g.yy",},"order":2,},
@@ -46,6 +47,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"Pierre","path":"rooms/Pierre/Pierre.yy",},},
     {"roomId":{"name":"Pièce1","path":"rooms/Pièce1/Pièce1.yy",},},
   ],
   "Folders": [
