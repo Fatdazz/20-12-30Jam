@@ -1,19 +1,5 @@
 {
   "resources": [
-<<<<<<< Updated upstream
-    {"id":{"name":"obj_player_03","path":"objects/obj_player_03/obj_player_03.yy",},"order":8,},
-    {"id":{"name":"Portail_01","path":"timelines/Portail_01/Portail_01.yy",},"order":0,},
-    {"id":{"name":"bg_prog","path":"sprites/bg_prog/bg_prog.yy",},"order":0,},
-    {"id":{"name":"obj_portail","path":"objects/obj_portail/obj_portail.yy",},"order":17,},
-    {"id":{"name":"spr_palmier","path":"sprites/spr_palmier/spr_palmier.yy",},"order":4,},
-    {"id":{"name":"obj_player_02","path":"objects/obj_player_02/obj_player_02.yy",},"order":7,},
-    {"id":{"name":"spr_crabe3","path":"sprites/spr_crabe3/spr_crabe3.yy",},"order":9,},
-    {"id":{"name":"spr_rocher","path":"sprites/spr_rocher/spr_rocher.yy",},"order":6,},
-    {"id":{"name":"obj_player_04","path":"objects/obj_player_04/obj_player_04.yy",},"order":9,},
-    {"id":{"name":"obj_player_01","path":"objects/obj_player_01/obj_player_01.yy",},"order":1,},
-    {"id":{"name":"spr_oursin","path":"sprites/spr_oursin/spr_oursin.yy",},"order":3,},
-    {"id":{"name":"spr_tonneau","path":"sprites/spr_tonneau/spr_tonneau.yy",},"order":5,},
-=======
     {"id":{"name":"obj_player_03","path":"objects/obj_player_03/obj_player_03.yy",},"order":2,},
     {"id":{"name":"obj_oursin_B","path":"objects/obj_oursin_B/obj_oursin_B.yy",},"order":0,},
     {"id":{"name":"spr_tonneau_V","path":"sprites/spr_tonneau_V/spr_tonneau_V.yy",},"order":2,},
@@ -38,7 +24,6 @@
     {"id":{"name":"spr_crabe_M","path":"sprites/spr_crabe_M/spr_crabe_M.yy",},"order":4,},
     {"id":{"name":"obj_plateforme_M","path":"objects/obj_plateforme_M/obj_plateforme_M.yy",},"order":0,},
     {"id":{"name":"spr_palmier_M","path":"sprites/spr_palmier_M/spr_palmier_M.yy",},"order":1,},
->>>>>>> Stashed changes
     {"id":{"name":"obj_Comp_Colision","path":"objects/obj_Comp_Colision/obj_Comp_Colision.yy",},"order":5,},
     {"id":{"name":"spr_oiseau","path":"sprites/spr_oiseau/spr_oiseau.yy",},"order":0,},
     {"id":{"name":"spr_plateform_MV","path":"sprites/spr_plateform_MV/spr_plateform_MV.yy",},"order":0,},

@@ -2,15 +2,6 @@
 // You can write your code in this editor
 //hspeed = 0;
 //vspeed = gravity_player;
-if !place_meeting(x, y + sprite_height/2 + 1, obj_Comp_Colision)
-    {
-    gravity = gravity_player;
-	//gravity = 2;
-    }
-else
-    {
-    gravity = 0;
-    }
 
 
 if abs(speed) > 0
@@ -24,4 +15,18 @@ else
     }
 
 get_input_key();
+
+
+if !place_meeting(x, y + sprite_height/2 + 0.01, obj_Comp_Colision)
+    {
+	show_debug_message(" g > 0    : " +string(jumpLock))
+    gravity = gravity_player;
+	
+    }
+else
+    {
+	show_debug_message(" g = 0    : " +string(jumpLock))
+    gravity = 0;
+	jumpLock = false;
+    }
 
