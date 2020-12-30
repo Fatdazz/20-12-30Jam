@@ -2,8 +2,24 @@
 // You can write your code in this editor
 //hspeed = 0;
 //vspeed = gravity_player;
-friction = friction_player;
-gravity = gravity_player;
-gravity_direction = -90;
+if !place_meeting(x, y + sprite_height/2 + 1, obj_Comp_Colision)
+    {
+    gravity = gravity_player;
+    }
+else
+    {
+    gravity = 0;
+    }
+
+
+if abs(speed) > 0
+    {
+    friction = friction_player;
+    }
+else
+    {
+    friction = 0;
+    }
+
 get_input_key();
 
