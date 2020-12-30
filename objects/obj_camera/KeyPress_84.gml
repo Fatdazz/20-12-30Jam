@@ -2,19 +2,21 @@
 // You can write your code in this editor
 
 nbView+=1;
-view_visible[nbView] = true;
-var _player  = instance_find(obj_player_g,nbView);
-_player.actif = true;
-
+//view_visible[nbView] = true;
+show_debug_message("nbView: " + string( nbView) + " -----> " );
 for(var i = 0; i < nbView;i++){
-	show_debug_message(i);
+	
+	//show_debug_message("nbView: " + string( nbView) + " i: " + string(i));
+	//view_visible[i] = true;
 	view_visible[i] = true;
 	view_xport[i] = 0;
-	view_yport[i] = i*_h/2;
-	view_wport[i] = _w; // We want the window to be 960x540 so set the view port to half the width
-	view_hport[i] = _h/2;
-	camera_set_view_size(view_camera[i], _w,_h/(nbView+1));
+	view_yport[i] = i*_h/(nbView);
+	view_wport[i] = _w; 
+	view_hport[i] = _h/(nbView);
+	camera_set_view_size(view_camera[i], _w,_h/(nbView));
+	//camera_set_view_pos(view_camera[i],0, i*_h + _h/(nbView+1));
 
 }
-//surface_resize(application_surface, _w, _h);
+
+
 
