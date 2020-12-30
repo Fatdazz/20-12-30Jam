@@ -32,8 +32,8 @@
     {"propertyId":{"name":"actif","path":"objects/obj_player_g/obj_player_g.yy",},"objectId":{"name":"obj_player_g","path":"objects/obj_player_g/obj_player_g.yy",},"value":"True","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
-    "name": "Objets",
-    "path": "folders/Objets.yy",
+    "name": "obj_player",
+    "path": "folders/Objets/obj_player.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_player_01",

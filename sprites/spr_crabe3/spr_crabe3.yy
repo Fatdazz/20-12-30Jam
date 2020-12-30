@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"5dcf73b0-d2e7-4bf0-8331-3f1c11a29c0b","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "spr_crabe",
+    "path": "folders/Sprites/spr_crabe.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_crabe3",

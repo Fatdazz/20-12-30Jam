@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_oursin",
-    "path": "sprites/spr_oursin/spr_oursin.yy",
+    "name": "spr_palmier",
+    "path": "sprites/spr_palmier/spr_palmier.yy",
   },
   "solid": false,
   "visible": true,
@@ -27,11 +27,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objets",
-    "path": "folders/Objets.yy",
+    "name": "obj_palmier",
+    "path": "folders/Objets/obj_palmier.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_oursin",
+  "name": "obj_palmier_MV",
   "tags": [],
   "resourceType": "GMObject",
 }

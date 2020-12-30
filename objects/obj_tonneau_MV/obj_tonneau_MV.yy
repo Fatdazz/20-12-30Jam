@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_palmier",
-    "path": "sprites/spr_palmier/spr_palmier.yy",
+    "name": "spr_tonneau",
+    "path": "sprites/spr_tonneau/spr_tonneau.yy",
   },
   "solid": false,
   "visible": true,
@@ -27,11 +27,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objets",
-    "path": "folders/Objets.yy",
+    "name": "obj_tonneau",
+    "path": "folders/Objets/obj_tonneau.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_palmier",
+  "name": "obj_tonneau_MV",
   "tags": [],
   "resourceType": "GMObject",
 }

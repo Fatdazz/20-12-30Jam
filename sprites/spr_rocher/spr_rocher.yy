@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"cd9b81cc-d12a-4dd2-9947-2786c0ee46ed","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "spr_rocher",
+    "path": "folders/Sprites/spr_rocher.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_rocher",
