@@ -5,9 +5,6 @@ var _min = infinity;
 var _max = 0;
 
 
-for(var i=0; i< 4; i++){
-	
-}
 
 //view_camera[0] = camera_create_view(0, 0, _w , _h);
 for(var i = 0; i < nbView; i++){
