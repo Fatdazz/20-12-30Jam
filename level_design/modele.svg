@@ -38,9 +38,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.45254834"
-     inkscape:cx="1213.5788"
-     inkscape:cy="448.45801"
+     inkscape:zoom="0.11313708"
+     inkscape:cx="-1632.843"
+     inkscape:cy="3038.5386"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      inkscape:document-rotation="0"
@@ -2880,7 +2880,7 @@
     <g
        id="g3108-1"
        style="display:inline"
-       transform="matrix(3.5433296,0,0,0.92717643,-1405.5991,-202.00685)">
+       transform="matrix(2.3029888,0,0,0.92717643,-752.00334,-202.00685)">
       <rect
          style="display:inline;opacity:1;fill:#c17d11;fill-opacity:0.995935;stroke:#000000;stroke-width:0.529167;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect1698-4"
@@ -2903,6 +2903,24 @@
          rx="0.63689888"
          ry="1.3229167" />
     </g>
+    <rect
+       style="opacity:1;fill:#729fcf;fill-opacity:0.995935;stroke:#204a87;stroke-width:3.96875;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect3643"
+       width="26.458334"
+       height="39.6875"
+       x="607.7149"
+       y="389.43359"
+       rx="0.66145837"
+       ry="1.3229167" />
+    <rect
+       style="display:inline;opacity:1;fill:#73d216;fill-opacity:0.995935;stroke:#4e9a06;stroke-width:3.96875;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect3643-0"
+       width="26.458334"
+       height="39.6875"
+       x="605.23438"
+       y="553.97137"
+       rx="0.66145837"
+       ry="1.3229167" />
   </g>
   <g
      inkscape:groupmode="layer"
