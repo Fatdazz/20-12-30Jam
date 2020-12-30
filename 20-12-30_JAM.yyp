@@ -65,6 +65,7 @@
     {"folderPath":"folders/Courbes d’animation.yy","order":12,"resourceVersion":"1.0","name":"Courbes d’animation","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Remarques.yy","order":13,"resourceVersion":"1.0","name":"Remarques","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Extensions.yy","order":14,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objets/obj_player.yy","order":16,"resourceVersion":"1.0","name":"obj_player","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},
