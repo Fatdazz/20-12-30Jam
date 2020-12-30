@@ -1,8 +1,10 @@
 {
   "resources": [
     {"id":{"name":"obj_player_03","path":"objects/obj_player_03/obj_player_03.yy",},"order":8,},
+    {"id":{"name":"Portail_01","path":"timelines/Portail_01/Portail_01.yy",},"order":0,},
     {"id":{"name":"obj_oursin","path":"objects/obj_oursin/obj_oursin.yy",},"order":10,},
     {"id":{"name":"bg_prog","path":"sprites/bg_prog/bg_prog.yy",},"order":0,},
+    {"id":{"name":"obj_portail","path":"objects/obj_portail/obj_portail.yy",},"order":17,},
     {"id":{"name":"obj_rocher","path":"objects/obj_rocher/obj_rocher.yy",},"order":14,},
     {"id":{"name":"obj_tonneau","path":"objects/obj_tonneau/obj_tonneau.yy",},"order":13,},
     {"id":{"name":"spr_palmier","path":"sprites/spr_palmier/spr_palmier.yy",},"order":4,},
@@ -31,6 +33,7 @@
     {"id":{"name":"ani_jump","path":"animcurves/ani_jump/ani_jump.yy",},"order":0,},
     {"id":{"name":"spr_crabe4","path":"sprites/spr_crabe4/spr_crabe4.yy",},"order":10,},
     {"id":{"name":"get_inputs","path":"scripts/get_inputs/get_inputs.yy",},"order":0,},
+    {"id":{"name":"addWord","path":"scripts/addWord/addWord.yy",},"order":2,},
     {"id":{"name":"Pièce1","path":"rooms/Pièce1/Pièce1.yy",},"order":0,},
   ],
   "Options": [
@@ -47,8 +50,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Pierre","path":"rooms/Pierre/Pierre.yy",},},
     {"roomId":{"name":"Pièce1","path":"rooms/Pièce1/Pièce1.yy",},},
+    {"roomId":{"name":"Pierre","path":"rooms/Pierre/Pierre.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
