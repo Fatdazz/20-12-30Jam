@@ -20,6 +20,7 @@
     {"id":{"name":"obj_player_04","path":"objects/obj_player_04/obj_player_04.yy",},"order":3,},
     {"id":{"name":"obj_player_01","path":"objects/obj_player_01/obj_player_01.yy",},"order":0,},
     {"id":{"name":"spr_oursin","path":"sprites/spr_oursin/spr_oursin.yy",},"order":0,},
+    {"id":{"name":"obj_portail","path":"objects/obj_portail/obj_portail.yy",},"order":23,},
     {"id":{"name":"spr_tonneau","path":"sprites/spr_tonneau/spr_tonneau.yy",},"order":0,},
     {"id":{"name":"spr_crabe_M","path":"sprites/spr_crabe_M/spr_crabe_M.yy",},"order":4,},
     {"id":{"name":"obj_plateforme_M","path":"objects/obj_plateforme_M/obj_plateforme_M.yy",},"order":0,},
@@ -62,8 +63,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Pièce1","path":"rooms/Pièce1/Pièce1.yy",},},
     {"roomId":{"name":"Pierre","path":"rooms/Pierre/Pierre.yy",},},
+    {"roomId":{"name":"Pièce1","path":"rooms/Pièce1/Pièce1.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -95,7 +96,6 @@
     {"folderPath":"folders/Objets/obj_rocher.yy","order":21,"resourceVersion":"1.0","name":"obj_rocher","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objets/obj_tonneau.yy","order":22,"resourceVersion":"1.0","name":"obj_tonneau","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/spr_portail.yy","order":19,"resourceVersion":"1.0","name":"spr_portail","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Objets/obj_portail.yy","order":23,"resourceVersion":"1.0","name":"obj_portail","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},
