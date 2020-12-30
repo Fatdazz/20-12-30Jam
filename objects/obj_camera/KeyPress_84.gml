@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+show_debug_message(" cam : " + string(camera_get_view_y(view_camera[0])) + " player:  " + string(instance_find(obj_player_01,0).y));
+
 nbView+=1;
 //view_visible[nbView] = true;
 show_debug_message("nbView: " + string( nbView) + " -----> " );

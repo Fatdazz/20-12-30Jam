@@ -1,4 +1,4 @@
-
+yCam = array_create(4);
 nbView = 1;
 
  _w = 1900;
@@ -6,6 +6,7 @@ nbView = 1;
 
 window_set_rectangle(0,0,_w,_h);
 
+x = 0
 
 
 // Set up camera for view[0] (player 1)
@@ -16,7 +17,9 @@ view_yport[0] = 0;
 view_wport[0] = _w; 
 view_hport[0] = _h;
 view_camera[0] = camera_create_view(0, 0, _w , _h);
+camera_set_view_pos(view_camera[0], 0, 0);
 
+camera_set_view_border(view_camera[0],0,0);
 
 // Set up camera for view[0] (player 2)
 view_visible[1] = false;
