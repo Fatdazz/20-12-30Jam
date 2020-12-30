@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_plateform_MV",
-    "path": "sprites/spr_plateform_MV/spr_plateform_MV.yy",
+    "name": "spr_sol",
+    "path": "sprites/spr_sol/spr_sol.yy",
   },
   "solid": true,
   "visible": true,
@@ -27,11 +27,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "obj_plateforme",
-    "path": "folders/Objets/obj_plateforme.yy",
+    "name": "Objets",
+    "path": "folders/Objets.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_plateforme_M",
+  "name": "obj_sol",
   "tags": [],
   "resourceType": "GMObject",
 }

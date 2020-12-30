@@ -3,7 +3,7 @@
     "name": "spr_crabe_BMV",
     "path": "sprites/spr_crabe_BMV/spr_crabe_BMV.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
