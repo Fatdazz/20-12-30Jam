@@ -17,10 +17,10 @@ view_camera[0] = camera_create_view(0, 0, _w , _h);
 // Set up camera for view[0] (player 2)
 view_visible[1] = false;
 view_xport[1] = 0; // Offset the second view for player two within the game window
-view_yport[1] = _h / 4;
+view_yport[1] = _h;
 view_wport[1] = _w;
-view_hport[1] = _h / 4;
-view_camera[1] = camera_create_view(0, 0, _w, _h);
+view_hport[1] = _h;
+view_camera[1] = camera_create_view(0, 0, _w, _h/2);
 
 //// Set up camera for view[0] (player 1)
 
