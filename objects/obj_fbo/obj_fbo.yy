@@ -29,8 +29,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objets",
-    "path": "folders/Objets.yy",
+    "name": "obj_dev",
+    "path": "folders/Objets/obj_dev.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_fbo",

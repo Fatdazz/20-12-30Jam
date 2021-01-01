@@ -20,7 +20,6 @@ for(var i = 0; i < nbView; i++){
 	if(_player.y > _yCam + _hCam*(1-deltaH)){ _yCam  +=_player.y - (_yCam +_hCam*(1-deltaH)); show_debug_message(" camera fin etape ") }
 	if(_player.y < _yCam + _hCam*deltaH){    _yCam   -= (_yCam + _hCam*deltaH) -_player.y; }
 	
-	
 	camera_set_view_pos(view_camera[i], x , _yCam );
 	
 }

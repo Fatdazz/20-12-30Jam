@@ -10,8 +10,8 @@ uniform float     iTime;
 uniform vec4 u_vB;
 uniform vec4 u_vA;
 
-float speed = 10.0;
-float amplitude = .3;
+float speed = 1.0;
+float amplitude = 0.0001;
 
 
 vec4 rgbShift( vec2 p , vec4 shift) {
@@ -40,9 +40,10 @@ void main()
 	highp vec4 shift = vec4pow( noise(vec2(mod(iTime*speed,u_vB.z) + u_vB.x, (mod(iTime*speed,u_vB.z) + u_vB)/25.0) ),8.0); //highp
 	shift *= vec4(amplitude,amplitude,amplitude,1.0);
 	c += rgbShift(v_vTexcoord, shift);
-	//shift.w= 0;
-	//c = vec4(shift.w/1.5,1.0,1.0,1.0);
-    gl_FragColor = vec4(c.rgb,texture2D( gm_BaseTexture,v_vTexcoord).a);
+	////shift.w= 0;
+	c = vec4(texture2D(gm_BaseTexture,v_vTexcoord).r,texture2D(gm_BaseTexture,v_vTexcoord).g,texture2D(gm_BaseTexture,v_vTexcoord).b,1.0);
+    gl_FragColor = vec4(c.rgb,1.0);
+	//gl_FragColor = vec4(c.rgba);
 }
 
 

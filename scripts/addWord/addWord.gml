@@ -7,7 +7,7 @@ function addWord(){
 	
 	//show_debug_message("nbView: " + string( nbView) + " i: " + string(i));
 	//view_visible[i] = true;
-	view_visible[i] = true;
+	//view_visible[i] = true;
 	view_xport[i] = 0;
 	view_yport[i] = i*_h/(nbView);
 	view_wport[i] = _w; 
