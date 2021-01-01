@@ -14,7 +14,7 @@ else
 	jumpLock = false;
     }
 
-if place_meeting(x, y - 1, obj_Comp_Colision) vspeed = 0;
+if place_meeting(x, y - 1, obj_Comp_Colision) {vspeed = 0; jump=false;}
 if place_meeting(x + 1, y, obj_Comp_Colision) hspeed = 0;
 if place_meeting(x - 1, y, obj_Comp_Colision) hspeed = 0;
 
