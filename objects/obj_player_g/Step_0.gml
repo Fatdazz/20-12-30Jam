@@ -5,7 +5,7 @@
 //var curveJumpChanel = animcurve_get_channel(curveJumpStruct,"acc");
 //var curveJumpAcc = animcurve_channel_evaluate(curveJumpChanel,(jumpTime - alarm[0])/10); 
 
-if(jump){ vspeed -= jump_speed;// * curveJumpAcc;
+if(jump){ vspeed -= jump_acc;// * curveJumpAcc;
 
 	}
 
