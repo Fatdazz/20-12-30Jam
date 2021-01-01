@@ -8,6 +8,7 @@
     {"id":{"name":"bg_prog","path":"sprites/bg_prog/bg_prog.yy",},"order":0,},
     {"id":{"name":"obj_rocher_M","path":"objects/obj_rocher_M/obj_rocher_M.yy",},"order":0,},
     {"id":{"name":"spr_plateforme_V","path":"sprites/spr_plateforme_V/spr_plateforme_V.yy",},"order":2,},
+    {"id":{"name":"debugRmGame","path":"rooms/debugRmGame/debugRmGame.yy",},"order":2,},
     {"id":{"name":"obj_palmier_M","path":"objects/obj_palmier_M/obj_palmier_M.yy",},"order":1,},
     {"id":{"name":"obj_tonneau_MV","path":"objects/obj_tonneau_MV/obj_tonneau_MV.yy",},"order":0,},
     {"id":{"name":"spr_palmier_MV","path":"sprites/spr_palmier_MV/spr_palmier_MV.yy",},"order":0,},
@@ -35,9 +36,10 @@
     {"id":{"name":"spr_plateform_MV","path":"sprites/spr_plateform_MV/spr_plateform_MV.yy",},"order":0,},
     {"id":{"name":"spr_tonneau_M","path":"sprites/spr_tonneau_M/spr_tonneau_M.yy",},"order":1,},
     {"id":{"name":"obj_sol","path":"objects/obj_sol/obj_sol.yy",},"order":6,},
-    {"id":{"name":"Pierre","path":"rooms/Pierre/Pierre.yy",},"order":1,},
+    {"id":{"name":"debugRmGd","path":"rooms/debugRmGd/debugRmGd.yy",},"order":1,},
     {"id":{"name":"collision","path":"scripts/collision/collision.yy",},"order":1,},
     {"id":{"name":"obj_shader","path":"objects/obj_shader/obj_shader.yy",},"order":26,},
+    {"id":{"name":"obj_roomSelect","path":"objects/obj_roomSelect/obj_roomSelect.yy",},"order":27,},
     {"id":{"name":"tm_portail_open","path":"timelines/tm_portail_open/tm_portail_open.yy",},"order":0,},
     {"id":{"name":"spr_sol","path":"sprites/spr_sol/spr_sol.yy",},"order":2,},
     {"id":{"name":"obj_player_g","path":"objects/obj_player_g/obj_player_g.yy",},"order":4,},
@@ -55,7 +57,7 @@
     {"id":{"name":"get_inputs","path":"scripts/get_inputs/get_inputs.yy",},"order":0,},
     {"id":{"name":"addWord","path":"scripts/addWord/addWord.yy",},"order":2,},
     {"id":{"name":"spr_portalCube","path":"sprites/spr_portalCube/spr_portalCube.yy",},"order":21,},
-    {"id":{"name":"Pièce1","path":"rooms/Pièce1/Pièce1.yy",},"order":0,},
+    {"id":{"name":"debugRmProg","path":"rooms/debugRmProg/debugRmProg.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Linux","path":"options/linux/options_linux.yy",},
@@ -71,8 +73,12 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Pièce1","path":"rooms/Pièce1/Pièce1.yy",},},
-    {"roomId":{"name":"Pierre","path":"rooms/Pierre/Pierre.yy",},},
+    {"groupName":"Dev","children":[
+        {"roomId":{"name":"debugRmProg","path":"rooms/debugRmProg/debugRmProg.yy",},},
+        {"roomId":{"name":"debugRmGame","path":"rooms/debugRmGame/debugRmGame.yy",},},
+        {"roomId":{"name":"debugRmGd","path":"rooms/debugRmGd/debugRmGd.yy",},},
+      ],},
+    {"groupName":"Game","children":[],},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
