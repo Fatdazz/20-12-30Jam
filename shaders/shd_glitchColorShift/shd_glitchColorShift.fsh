@@ -37,7 +37,7 @@ vec4 vec4pow(  vec4 v,  float p ) {
 void main()
 {
     vec4 c = vec4(0.0,0.0,0.0,1.0);
-	highp vec4 shift = vec4pow( noise(vec2(mod(iTime*speed,u_vB.z) + u_vB.x, (mod(iTime*speed,u_vB.z) + u_vB)/25.0) ),8.0); //highp
+	highp vec4 shift = vec4pow( noise(vec2(mod(iTime*speed,u_vB.z) + u_vB.x, (mod(iTime*speed,u_vB.z) + u_vB.y)/25.0) ),8.0); //highp
 	shift *= vec4(amplitude,amplitude,amplitude,1.0);
 	c += rgbShift(v_vTexcoord, shift);
 	////shift.w= 0;
