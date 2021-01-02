@@ -25,7 +25,7 @@ else{
 	
 	}
 
-if(place_meeting(x, y - 1, obj_Comp_Colision)){speedv = 0;}
+if(place_meeting(x, y - 1, obj_Comp_Colision)){speedv = 0; lockJump = true; show_debug_message(" top collision ")}
 if(place_meeting(x+1, y, obj_Comp_Colision)){speedh = 0;}
 if(place_meeting(x-1, y, obj_Comp_Colision)){speedh = 0;}
 

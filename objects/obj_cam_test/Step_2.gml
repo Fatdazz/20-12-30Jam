@@ -7,7 +7,7 @@ var _max = 0;
 
 for(var i = 0; i < nbView; i++){
 
-	var _player = instance_find(obj_player_g,i);
+	var _player = instance_find(obj_player_new,i);
 	
 	if(_player.x > x + view_w *(1-deltaW)){ x+= _player.x - ( x + view_w *(1-deltaW)); }
 	if(_player.x < x + view_w * deltaW){x-= (x + view_w *deltaW) - _player.x }
