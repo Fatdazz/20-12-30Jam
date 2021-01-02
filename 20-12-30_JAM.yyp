@@ -29,6 +29,7 @@
     {"id":{"name":"spr_tonneau","path":"sprites/spr_tonneau/spr_tonneau.yy",},"order":0,},
     {"id":{"name":"spr_rgbNoiseSmall","path":"sprites/spr_rgbNoiseSmall/spr_rgbNoiseSmall.yy",},"order":22,},
     {"id":{"name":"spr_crabe_M","path":"sprites/spr_crabe_M/spr_crabe_M.yy",},"order":4,},
+    {"id":{"name":"rm_mere","path":"rooms/rm_mere/rm_mere.yy",},"order":3,},
     {"id":{"name":"obj_plateforme_M","path":"objects/obj_plateforme_M/obj_plateforme_M.yy",},"order":0,},
     {"id":{"name":"spr_palmier_M","path":"sprites/spr_palmier_M/spr_palmier_M.yy",},"order":1,},
     {"id":{"name":"Sprite7","path":"sprites/Sprite7/Sprite7.yy",},"order":20,},
@@ -78,10 +79,11 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"debugRmGd","path":"rooms/debugRmGd/debugRmGd.yy",},},
+    {"roomId":{"name":"rm_mere","path":"rooms/rm_mere/rm_mere.yy",},},
     {"groupName":"Dev","children":[
         {"roomId":{"name":"debugRmProg","path":"rooms/debugRmProg/debugRmProg.yy",},},
         {"roomId":{"name":"debugRmGame","path":"rooms/debugRmGame/debugRmGame.yy",},},
-        {"roomId":{"name":"debugRmGd","path":"rooms/debugRmGd/debugRmGd.yy",},},
       ],},
     {"groupName":"Game","children":[],},
   ],

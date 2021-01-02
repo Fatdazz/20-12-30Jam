@@ -5,8 +5,7 @@
 yCam = array_create(4);
 nbView = 1;
 nbViewMax = 3;
-window_set_rectangle(0,0,view_w,view_h);
-surface_resize(application_surface, view_w,view_h);
+
 x = 0
 
 view_enabled = true;
