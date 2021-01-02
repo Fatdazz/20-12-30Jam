@@ -27,7 +27,8 @@ camera_set_end_script(view_camera[0],sr_cam_end);
 
 //application_surface_draw_enable(false);
 
-fboGlich = surface_create(view_w/nbView,view_h/nbView);
+fboGlichRead = surface_create(view_w/nbView,view_h/nbView);
+fboGlichWrite = surface_create(view_w/nbView,view_h/nbView);
 
 
 uni_iResolution = shader_get_uniform(shd_glitchColorShift,"iResolution");
@@ -36,7 +37,7 @@ uni_uvA = shader_get_uniform( shd_glitchColorShift, "u_vA" );
 uni_uvB = shader_get_uniform( shd_glitchColorShift, "u_vB" );
 
  _uvs_b = sprite_get_uvs( spr_rgbNoiseSmall, 0 ); // dimension texture1
- _uvs_a =texture_get_uvs(surface_get_texture(fboGlich));
+ _uvs_a =texture_get_uvs(surface_get_texture(fboGlichRead));
  t_sampler = shader_get_sampler_index( shd_glitchColorShift, "Texture01" );
  t_sprite = sprite_get_texture( spr_rgbNoiseSmall, 0 );
 

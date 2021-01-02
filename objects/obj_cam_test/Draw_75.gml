@@ -15,4 +15,4 @@ for(var i = 0 ; i < nbView ; i ++ ){
 }
 //draw_surface(application_surface,0,0);
 
-shader_reset();
+//shader_reset();

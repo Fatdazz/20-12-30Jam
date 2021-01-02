@@ -42,5 +42,6 @@ for(var i = 0; i < nbView; i++){
 //	}
 //}
 
-if(!surface_exists(fboGlich)){fboGlich = surface_create(view_w/nbView,view_h/nbView);}
-if(surface_get_height(fboGlich) != view_h/nbView) { surface_resize(fboGlich,view_w/nbView,view_h/nbView);}
+if(!surface_exists(fboGlichRead)){fboGlichRead = surface_create(view_w,view_h); _uvs_a =texture_get_uvs(surface_get_texture(fboGlichRead));}
+if(!surface_exists(fboGlichWrite)){fboGlichWrite = surface_create(view_w,view_h);}
+//if(surface_get_height(fboGlich) != view_h/nbView) { surface_resize(fboGlich,view_w/nbView,view_h/nbView);}
