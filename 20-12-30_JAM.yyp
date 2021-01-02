@@ -47,6 +47,7 @@
     {"id":{"name":"spr_sol","path":"sprites/spr_sol/spr_sol.yy",},"order":2,},
     {"id":{"name":"obj_player_g","path":"objects/obj_player_g/obj_player_g.yy",},"order":4,},
     {"id":{"name":"obj_oiseau_B","path":"objects/obj_oiseau_B/obj_oiseau_B.yy",},"order":0,},
+    {"id":{"name":"rm_01","path":"rooms/rm_01/rm_01.yy",},"order":4,},
     {"id":{"name":"spr_palmier_V","path":"sprites/spr_palmier_V/spr_palmier_V.yy",},"order":2,},
     {"id":{"name":"spr_crabe_BM","path":"sprites/spr_crabe_BM/spr_crabe_BM.yy",},"order":1,},
     {"id":{"name":"obj_palmier_V","path":"objects/obj_palmier_V/obj_palmier_V.yy",},"order":2,},
@@ -86,6 +87,7 @@
         {"roomId":{"name":"debugRmGame","path":"rooms/debugRmGame/debugRmGame.yy",},},
       ],},
     {"groupName":"Game","children":[],},
+    {"roomId":{"name":"rm_01","path":"rooms/rm_01/rm_01.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
