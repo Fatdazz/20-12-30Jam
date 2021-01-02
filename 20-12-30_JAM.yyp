@@ -18,6 +18,7 @@
     {"id":{"name":"spr_portail_V","path":"sprites/spr_portail_V/spr_portail_V.yy",},"order":1,},
     {"id":{"name":"obj_player_02","path":"objects/obj_player_02/obj_player_02.yy",},"order":1,},
     {"id":{"name":"obj_palmier_MV","path":"objects/obj_palmier_MV/obj_palmier_MV.yy",},"order":0,},
+    {"id":{"name":"Room_01","path":"rooms/Room_01/Room_01.yy",},"order":3,},
     {"id":{"name":"spr_crabe_V","path":"sprites/spr_crabe_V/spr_crabe_V.yy",},"order":2,},
     {"id":{"name":"spr_rocher","path":"sprites/spr_rocher/spr_rocher.yy",},"order":0,},
     {"id":{"name":"obj_player_04","path":"objects/obj_player_04/obj_player_04.yy",},"order":3,},
@@ -84,6 +85,7 @@
         {"roomId":{"name":"debugRmGd","path":"rooms/debugRmGd/debugRmGd.yy",},},
       ],},
     {"groupName":"Game","children":[],},
+    {"roomId":{"name":"Room_01","path":"rooms/Room_01/Room_01.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
