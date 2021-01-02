@@ -66,3 +66,4 @@ uni_uvB = shader_get_uniform( shd_glitchColorShift, "u_vB" );
 t_sampler = shader_get_sampler_index( shd_glitchColorShift, "Texture01" );
 t_sprite = sprite_get_texture( spr_rgbNoiseSmall, 0 );
 
+

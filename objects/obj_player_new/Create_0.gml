@@ -7,3 +7,4 @@ speedh = 0;
 speedv = 0;
 
 aniPlayer_struct = animcurve_get(ani_player);
+
