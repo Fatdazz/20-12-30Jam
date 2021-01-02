@@ -3,6 +3,6 @@
 
 for(var i = 0 ; i < nbView ; i ++ ){
 	
-	draw_surface(view_surface_id[i],0,0);	
+	draw_surface(view_surface_id[i],0,i*view_h/nbView);	
 	
 }
