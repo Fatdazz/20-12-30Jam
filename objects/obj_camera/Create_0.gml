@@ -4,7 +4,7 @@ nbView = 1;
  _w = 1900;
  _h = 1000;
 
-window_set_rectangle(0,0,_w,_h);
+window_set_rectangle(50,50,_w/1.5,_h/1.5);
 
 x = 0
 

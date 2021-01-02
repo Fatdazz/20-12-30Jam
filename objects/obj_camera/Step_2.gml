@@ -9,7 +9,7 @@ var _max = 0;
 //view_camera[0] = camera_create_view(0, 0, _w , _h);
 for(var i = 0; i < nbView; i++){
 
-	var _player = instance_find(obj_player_g,i);
+	var _player = instance_find(obj_player_new,i);
 	
 	if(_player.x > x + _w*(1-deltaW)){ x+= _player.x - ( x + _w*(1-deltaW)); }
 	if(_player.x < x + _w*deltaW){x-= (x + _w*deltaW) - _player.x }

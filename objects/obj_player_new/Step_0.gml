@@ -14,3 +14,4 @@ speedh = sign(speedh) * min(abs(speedh),speedhMax);
 speedv = sign(speedv) * min(abs(speedv),speedvMax);
 
 
+if abs(speedh)<0.01 speedh=0;
