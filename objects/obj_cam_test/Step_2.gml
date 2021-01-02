@@ -17,8 +17,27 @@ for(var i = 0; i < nbView; i++){
 	var _hCam = camera_get_view_height(view_camera[i]);
 	
 	if(_player.y > _yCam + _hCam*(1-deltaH)){ _yCam  +=_player.y - (_yCam +_hCam*(1-deltaH)); show_debug_message(" camera fin etape ") }
-	if(_player.y < _yCam + _hCam*deltaH){    _yCam   -= (_yCam + _hCam*deltaH) -_player.y; }
+	if(_player.y < _yCam + _hCam* deltaH)   { _yCam  -= (_yCam + _hCam*deltaH) -_player.y   ;  show_debug_message(" camera fin etape2 ")}
 	
 	camera_set_view_pos(view_camera[i], x , _yCam );
 	
+}
+
+
+// creation & resize surface 
+
+for(var i = 0 ; i < nbView ; i ++){
+	if surface_exists(view_surface_id[i]){
+		//surface_set_target(fbo);
+		//draw_clear_alpha(0,0);
+		//surface_reset_target();
+	}else{
+		view_surface_id[i] = surface_create(view_w,view_h/nbView);
+	}
+
+	if(surface_get_height(view_surface_id[i]) != view_h/nbView){
+		
+		surface_resize(view_surface_id[i],view_w,view_h/nbView);
+		
+	}
 }
