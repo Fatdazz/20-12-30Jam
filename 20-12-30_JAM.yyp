@@ -83,15 +83,14 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"debugRmGd","path":"rooms/debugRmGd/debugRmGd.yy",},},
-    {"roomId":{"name":"rm_mere","path":"rooms/rm_mere/rm_mere.yy",},},
-    {"groupName":"Dev","children":[
-        {"roomId":{"name":"debugRmProg","path":"rooms/debugRmProg/debugRmProg.yy",},},
-        {"roomId":{"name":"debugRmGame","path":"rooms/debugRmGame/debugRmGame.yy",},},
-      ],},
-    {"groupName":"Game","children":[],},
-    {"roomId":{"name":"rm_01","path":"rooms/rm_01/rm_01.yy",},},
+    {"roomId":{"name":"debugRmProg","path":"rooms/debugRmProg/debugRmProg.yy",},},
     {"roomId":{"name":"rm_02","path":"rooms/rm_02/rm_02.yy",},},
+    {"roomId":{"name":"rm_01","path":"rooms/rm_01/rm_01.yy",},},
+    {"roomId":{"name":"debugRmGame","path":"rooms/debugRmGame/debugRmGame.yy",},},
+    {"roomId":{"name":"debugRmGd","path":"rooms/debugRmGd/debugRmGd.yy",},},
+    {"groupName":"Dev","children":[],},
+    {"groupName":"Game","children":[],},
+    {"roomId":{"name":"rm_mere","path":"rooms/rm_mere/rm_mere.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
