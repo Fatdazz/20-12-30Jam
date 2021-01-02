@@ -5,7 +5,7 @@
 
 hspeed = 0;
 vspeed = 0;
-gravity = gravity_player;
-gravity_direction = 270;
+//gravity = gravity_player;
+//gravity_direction = 270;
 
 jumpLock = false;
