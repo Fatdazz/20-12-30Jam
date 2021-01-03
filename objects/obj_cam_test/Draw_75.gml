@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-show_debug_message("----> fin gui");
+//											show_debug_message("----> fin gui");
 
 //surface_reset_target();
 

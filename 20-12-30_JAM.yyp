@@ -35,6 +35,7 @@
     {"id":{"name":"Sprite7","path":"sprites/Sprite7/Sprite7.yy",},"order":20,},
     {"id":{"name":"obj_Comp_Colision","path":"objects/obj_Comp_Colision/obj_Comp_Colision.yy",},"order":5,},
     {"id":{"name":"spr_oiseau","path":"sprites/spr_oiseau/spr_oiseau.yy",},"order":0,},
+    {"id":{"name":"Ani_tm_portail","path":"animcurves/Ani_tm_portail/Ani_tm_portail.yy",},"order":2,},
     {"id":{"name":"spr_plateform_MV","path":"sprites/spr_plateform_MV/spr_plateform_MV.yy",},"order":0,},
     {"id":{"name":"spr_tonneau_M","path":"sprites/spr_tonneau_M/spr_tonneau_M.yy",},"order":1,},
     {"id":{"name":"obj_sol","path":"objects/obj_sol/obj_sol.yy",},"order":6,},

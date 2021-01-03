@@ -16,9 +16,9 @@ for(var i = 0; i < nbView; i++){
 	var _yCam = camera_get_view_y(view_camera[i]);
 	var _hCam = camera_get_view_height(view_camera[i]);
 	
-	if(_player.y > _yCam + _hCam*(1-deltaH)){ _yCam  +=_player.y - (_yCam +_hCam*(1-deltaH)); show_debug_message(" camera fin etape ") }
-	if(_player.y < _yCam + _hCam* deltaH)   { _yCam  -= (_yCam + _hCam*deltaH) -_player.y   ;  show_debug_message(" camera fin etape2 ")}
-	
+	//if(_player.y > _yCam + _hCam*(1-deltaH)){ _yCam  +=_player.y - (_yCam +_hCam*(1-deltaH)); show_debug_message(" camera fin etape ") }
+	//if(_player.y < _yCam + _hCam* deltaH)   { _yCam  -= (_yCam + _hCam*deltaH) -_player.y   ;  show_debug_message(" camera fin etape2 ")}
+	_yCam = _player.y - view_hport[0]/2 ;
 	camera_set_view_pos(view_camera[i], x , _yCam );
 	
 }
@@ -42,6 +42,4 @@ for(var i = 0; i < nbView; i++){
 //	}
 //}
 
-if(!surface_exists(fboGlichRead)){fboGlichRead = surface_create(view_w,view_h); _uvs_a =texture_get_uvs(surface_get_texture(fboGlichRead));}
-if(!surface_exists(fboGlichWrite)){fboGlichWrite = surface_create(view_w,view_h);}
-//if(surface_get_height(fboGlich) != view_h/nbView) { surface_resize(fboGlich,view_w/nbView,view_h/nbView);}
+
