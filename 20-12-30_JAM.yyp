@@ -55,7 +55,6 @@
     {"id":{"name":"obj_oiseau_B","path":"objects/obj_oiseau_B/obj_oiseau_B.yy",},"order":0,},
     {"id":{"name":"rm_01","path":"rooms/rm_01/rm_01.yy",},"order":4,},
     {"id":{"name":"spr_palmier_V","path":"sprites/spr_palmier_V/spr_palmier_V.yy",},"order":2,},
-    {"id":{"name":"Sprite30","path":"sprites/Sprite30/Sprite30.yy",},"order":15,},
     {"id":{"name":"spr_portalCube2","path":"sprites/spr_portalCube2/spr_portalCube2.yy",},"order":15,},
     {"id":{"name":"spr_crabe_BM","path":"sprites/spr_crabe_BM/spr_crabe_BM.yy",},"order":1,},
     {"id":{"name":"obj_palmier_V","path":"objects/obj_palmier_V/obj_palmier_V.yy",},"order":2,},

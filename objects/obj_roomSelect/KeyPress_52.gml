@@ -1,3 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-room_goto(room_04);
+if(room_exists(room_04)){ room_goto(room_04);}
