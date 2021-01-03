@@ -1,10 +1,10 @@
 {
   "spriteId": {
-    "name": "spr_oursin",
-    "path": "sprites/spr_oursin/spr_oursin.yy",
+    "name": "spr_spawn",
+    "path": "sprites/spr_spawn/spr_spawn.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -20,17 +20,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_player_new","path":"objects/obj_player_new/obj_player_new.yy",},"parent":{"name":"obj_oursin_B","path":"objects/obj_oursin_B/obj_oursin_B.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "obj_oursin",
-    "path": "folders/Objets/obj_oursin.yy",
+    "name": "Objets",
+    "path": "folders/Objets.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_oursin_B",
+  "name": "obj_spawn_player",
   "tags": [],
   "resourceType": "GMObject",
 }
