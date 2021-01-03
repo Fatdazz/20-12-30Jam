@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_plateform_MV",
-    "path": "sprites/spr_plateform_MV/spr_plateform_MV.yy",
+    "name": "spr_rocher_M",
+    "path": "sprites/spr_rocher_M/spr_rocher_M.yy",
   },
   "solid": true,
   "visible": true,

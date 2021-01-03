@@ -11,8 +11,8 @@ uniform sampler2D Texture01;
 uniform float     iTime;
 
 
-float speed = 0.0001;
-float amplitude = .02;
+float speed = 0.1;
+float amplitude = .002;
 
 
 vec4 rgbShift( vec2 p , vec4 shift) {
