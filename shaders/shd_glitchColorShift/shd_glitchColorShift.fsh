@@ -11,7 +11,7 @@ uniform sampler2D Texture01;
 uniform float     iTime;
 
 
-float speed = 2;
+float speed = 0.0001;
 float amplitude = .02;
 
 
