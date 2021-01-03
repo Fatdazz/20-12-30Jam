@@ -54,6 +54,7 @@
     {"id":{"name":"spr_palmier_V","path":"sprites/spr_palmier_V/spr_palmier_V.yy",},"order":2,},
     {"id":{"name":"spr_crabe_BM","path":"sprites/spr_crabe_BM/spr_crabe_BM.yy",},"order":1,},
     {"id":{"name":"obj_palmier_V","path":"objects/obj_palmier_V/obj_palmier_V.yy",},"order":2,},
+    {"id":{"name":"Sprite29","path":"sprites/Sprite29/Sprite29.yy",},"order":15,},
     {"id":{"name":"obj_player_new","path":"objects/obj_player_new/obj_player_new.yy",},"order":5,},
     {"id":{"name":"spr_portail_B","path":"sprites/spr_portail_B/spr_portail_B.yy",},"order":0,},
     {"id":{"name":"shd_00","path":"shaders/shd_00/shd_00.yy",},"order":1,},
