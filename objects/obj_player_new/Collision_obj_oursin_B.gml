@@ -16,7 +16,10 @@ part_type_gravity(_p,0.3,270);
 
 
 part_particles_create(partSystem,x,y,_p,5);
+visible = true;
+alarm[1] = 60;
 
-
+speedh = 0;
+speedv = 0;
 x = spawn.x;
 y = spawn.y;

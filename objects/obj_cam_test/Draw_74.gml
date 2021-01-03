@@ -8,7 +8,7 @@
 
 
 	
-draw_surface(fboGlichWrite,0,0);
+//draw_surface(fboGlichWrite,0,0);
 
 surface_set_target(fboGlichRead);
 draw_surface(application_surface,0,0);
