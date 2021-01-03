@@ -47,6 +47,7 @@ uni_uvB = shader_get_uniform( shd_glitchColorShift, "u_vB" );
 isGlich = true;
 adressGlachCam = pointer_null;
 timeline_index = tm_portail_open;
+aniTmPortail_struct = animcurve_get(Ani_tm_portail);
 
 
 

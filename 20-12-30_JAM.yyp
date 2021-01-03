@@ -6,6 +6,7 @@
     {"id":{"name":"spr_rocher_M","path":"sprites/spr_rocher_M/spr_rocher_M.yy",},"order":1,},
     {"id":{"name":"spr_oursin_B","path":"sprites/spr_oursin_B/spr_oursin_B.yy",},"order":1,},
     {"id":{"name":"bg_prog","path":"sprites/bg_prog/bg_prog.yy",},"order":0,},
+    {"id":{"name":"spr_frameWindows","path":"sprites/spr_frameWindows/spr_frameWindows.yy",},"order":23,},
     {"id":{"name":"obj_cam_test","path":"objects/obj_cam_test/obj_cam_test.yy",},"order":28,},
     {"id":{"name":"obj_rocher_M","path":"objects/obj_rocher_M/obj_rocher_M.yy",},"order":0,},
     {"id":{"name":"spr_plateforme_V","path":"sprites/spr_plateforme_V/spr_plateforme_V.yy",},"order":2,},

@@ -11,19 +11,23 @@ if(timeline_running && timeline_index == tm_portail_open){
 		var tmMomMax  = timeline_max_moment(tm_portail_open);
 		var t = timeline_position/tmMomMax;
 		show_debug_message(t);
+		
+		var aniChanel = animcurve_get_channel(aniTmPortail_struct,"speed_open");
+		var aniSpeed = animcurve_channel_evaluate(aniChanel,t);
+		
 		for(var i  = 0; i < nbView-1 ; i++){
 				view_xport[i] = 0;
-				view_yport[i] = 0;
+				view_yport[i] = 0; ///// <======= modif 
 				view_wport[i] = view_w;
 				view_hport[i] = view_h/(nbView-1) - t*(view_h/(nbView));
-				view_camera[i] = camera_create_view(0, 0, view_w ,view_hport[i]);
+				view_camera[i] = camera_create_view(0, 0, view_w ,view_hport[i] * aniSpeed);
 				
 		}
 		
 				view_xport[nbView-1] = 0;
-				view_yport[nbView-1] = view_h - t*(view_h/(nbView)); ///// <======= modif 
+				view_yport[nbView-1] = view_h - t*(view_h/(nbView) * aniSpeed); 
 				view_wport[nbView-1] = view_w;
-				view_hport[nbView-1] = t*(view_h/(nbView));
+				view_hport[nbView-1] = t*(view_h/(nbView))* aniSpeed;
 				view_camera[i] = camera_create_view(0, 0, view_w ,view_hport[nbView-1]);
 				
 		

@@ -7,11 +7,10 @@
 
 
 
-for(var i = 0 ; i < nbView ; i ++ ){
-
-	//draw_surface(view_surface_id[i],0,i*view_h/nbView);
+for(var i = 1 ; i < nbView ; i ++ ){
 	
-
+	draw_sprite_stretched(spr_frameWindows,0,0,view_yport[i],view_wport[i],5);
+		
 }
 //draw_surface(application_surface,0,0);
 
