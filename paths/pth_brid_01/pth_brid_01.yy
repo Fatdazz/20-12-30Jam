@@ -11,8 +11,8 @@
     {"speed":100.0,"x":515.7521,"y":778.8331,},
   ],
   "parent": {
-    "name": "20-12-30_JAM",
-    "path": "20-12-30_JAM.yyp",
+    "name": "Chemins d'accès",
+    "path": "folders/Chemins d'accès.yy",
   },
   "resourceVersion": "1.0",
   "name": "pth_brid_01",

@@ -55,7 +55,7 @@
     {"id":{"name":"obj_player_g","path":"objects/obj_player_g/obj_player_g.yy",},"order":4,},
     {"id":{"name":"sr_cam_end","path":"scripts/sr_cam_end/sr_cam_end.yy",},"order":6,},
     {"id":{"name":"obj_oiseau_B","path":"objects/obj_oiseau_B/obj_oiseau_B.yy",},"order":0,},
-    {"id":{"name":"pth_brid_01","path":"paths/pth_brid_01/pth_brid_01.yy",},"order":15,},
+    {"id":{"name":"pth_brid_01","path":"paths/pth_brid_01/pth_brid_01.yy",},"order":0,},
     {"id":{"name":"rm_01","path":"rooms/rm_01/rm_01.yy",},"order":4,},
     {"id":{"name":"spr_palmier_V","path":"sprites/spr_palmier_V/spr_palmier_V.yy",},"order":2,},
     {"id":{"name":"spr_portalCube2","path":"sprites/spr_portalCube2/spr_portalCube2.yy",},"order":15,},
