@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_ecranSelect",
+    "path": "sprites/spr_ecranSelect/spr_ecranSelect.yy",
+  },
   "solid": false,
   "visible": false,
   "spriteMaskId": null,
