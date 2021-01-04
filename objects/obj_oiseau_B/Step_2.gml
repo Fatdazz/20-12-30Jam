@@ -21,9 +21,7 @@ var _y  = path_get_y(pth_brid_01,path_position)  - path_get_y(pth_brid_01,path_p
 var d = point_direction(path_get_x(pth_brid_01,path_positionprevious),
 				path_get_y(pth_brid_01,path_positionprevious),
 				path_get_x(pth_brid_01,path_position),
-				path_get_y(pth_brid_01,path_position))
-
-
+				path_get_y(pth_brid_01,path_position));
 
 show_debug_message(d )
 image_angle = d;

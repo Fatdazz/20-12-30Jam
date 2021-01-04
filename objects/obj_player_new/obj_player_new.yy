@@ -23,7 +23,6 @@
     {"isDnD":false,"eventNum":1,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_player_new","path":"objects/obj_player_new/obj_player_new.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":2,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_player_new","path":"objects/obj_player_new/obj_player_new.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"parent":{"name":"obj_player_new","path":"objects/obj_player_new/obj_player_new.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_spawn_player","path":"objects/obj_spawn_player/obj_spawn_player.yy",},"parent":{"name":"obj_player_new","path":"objects/obj_player_new/obj_player_new.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_oursin_B","path":"objects/obj_oursin_B/obj_oursin_B.yy",},"parent":{"name":"obj_player_new","path":"objects/obj_player_new/obj_player_new.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":1,"eventType":2,"collisionObjectId":null,"parent":{"name":"obj_player_new","path":"objects/obj_player_new/obj_player_new.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
