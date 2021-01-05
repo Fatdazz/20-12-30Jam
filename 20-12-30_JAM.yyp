@@ -47,6 +47,7 @@
     {"id":{"name":"collisionNew","path":"scripts/collisionNew/collisionNew.yy",},"order":3,},
     {"id":{"name":"debugRmGd","path":"rooms/debugRmGd/debugRmGd.yy",},"order":1,},
     {"id":{"name":"collision","path":"scripts/collision/collision.yy",},"order":1,},
+    {"id":{"name":"obj_01","path":"objects/obj_01/obj_01.yy",},"order":30,},
     {"id":{"name":"obj_shader","path":"objects/obj_shader/obj_shader.yy",},"order":26,},
     {"id":{"name":"obj_roomSelect","path":"objects/obj_roomSelect/obj_roomSelect.yy",},"order":27,},
     {"id":{"name":"tm_portail_open","path":"timelines/tm_portail_open/tm_portail_open.yy",},"order":0,},
@@ -54,6 +55,7 @@
     {"id":{"name":"spr_sol","path":"sprites/spr_sol/spr_sol.yy",},"order":1,},
     {"id":{"name":"obj_player_g","path":"objects/obj_player_g/obj_player_g.yy",},"order":4,},
     {"id":{"name":"sr_cam_end","path":"scripts/sr_cam_end/sr_cam_end.yy",},"order":6,},
+    {"id":{"name":"debugRmSound","path":"rooms/debugRmSound/debugRmSound.yy",},"order":6,},
     {"id":{"name":"obj_oiseau_B","path":"objects/obj_oiseau_B/obj_oiseau_B.yy",},"order":0,},
     {"id":{"name":"pth_brid_01","path":"paths/pth_brid_01/pth_brid_01.yy",},"order":0,},
     {"id":{"name":"rm_01","path":"rooms/rm_01/rm_01.yy",},"order":4,},
@@ -101,6 +103,7 @@
     {"groupName":"Dev","children":[],},
     {"groupName":"Game","children":[],},
     {"roomId":{"name":"rm_mere","path":"rooms/rm_mere/rm_mere.yy",},},
+    {"roomId":{"name":"debugRmSound","path":"rooms/debugRmSound/debugRmSound.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -135,14 +138,14 @@
     {"folderPath":"folders/Objets/obj_dev.yy","order":25,"resourceVersion":"1.0","name":"obj_dev","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
-    {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},
+    {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
   ],
   "TextureGroups": [
-    {"isScaled":true,"autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":461609314234257646,"resourceVersion":"1.0","name":"Default","resourceType":"GMTextureGroup",},
+    {"isScaled":true,"autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,"resourceVersion":"1.3","name":"Default","resourceType":"GMTextureGroup",},
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.1.536",
+    "IDEVersion": "2.3.1.542",
   },
   "resourceVersion": "1.4",
   "name": "20-12-30_JAM",
