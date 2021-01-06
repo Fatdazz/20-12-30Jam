@@ -10,6 +10,7 @@ nbViewMax = instance_number(obj_player_new);
 
 x = 0
 view_enabled = true;
+
 	view_visible[0] = true
 	//if(i==0) view_visible[i] = true;
 	view_xport[0] = 0;
@@ -22,7 +23,7 @@ for(var i = 1; i < nbViewMax; i++){
 	view_visible[i] = false;
 	//if(i==0) view_visible[i] = true;
 	view_xport[i] = 0;
-	view_yport[i] = view_h + 2;
+	view_yport[i] = view_h + 2*i;
 	view_wport[i] = 2;
 	view_hport[i] = 2;
 	view_camera[i] = camera_create_view(view_xport[i], view_yport[i], view_wport[i] ,view_hport[i]);

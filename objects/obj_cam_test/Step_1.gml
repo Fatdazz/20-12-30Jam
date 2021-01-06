@@ -20,7 +20,8 @@ if(timeline_running && timeline_index == tm_portail_open){
 				//view_visible[i] = true;
 				view_xport[i] = 0;
 				//view_yport[i] = i*view_h/nbView		///// <======= modif 
-				view_yport[i] = i * view_hport[i-1];		///// <======= modif 
+				view_yport[i] = 0;
+				if (i!=0) view_yport[i] = i * view_hport[i-1];		///// <======= modif 
 				view_wport[i] = view_w;
 				view_hport[i] = view_h/(nbView-1) - delta/(nbView-1) ;
 				view_camera[i] = camera_create_view(view_xport[0], _player.y, view_w ,view_hport[i]);
@@ -36,8 +37,9 @@ if(timeline_running && timeline_index == tm_portail_open){
 				
 		
 		
-		surface_resize(fboGlichRead,view_w,view_h/nbView);
-		surface_resize(fboGlichWrite,view_w,view_h/nbView);
+		//show_debug_message(view_h/(nbView-1) - delta/(nbView-1));
+		surface_resize(fboGlichRead,view_w,view_hport[0]);
+		surface_resize(fboGlichWrite,view_w,view_hport[0]);
 
 }
 if(!timeline_running){
