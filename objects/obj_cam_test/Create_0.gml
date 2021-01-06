@@ -18,19 +18,19 @@ view_enabled = true;
 	view_hport[0] = view_h;
 	view_camera[0] = camera_create_view(view_xport[0], view_yport[0], view_wport[0] ,view_hport[0]);
 
-for(var i = 1; i < nbView; i++){
-	view_visible[i] = true
+for(var i = 1; i < nbViewMax; i++){
+	view_visible[i] = false;
 	//if(i==0) view_visible[i] = true;
 	view_xport[i] = 0;
-	view_yport[i] = view_h + 1;
-	view_wport[i] = 1;
-	view_hport[i] = 1;
+	view_yport[i] = view_h + 2;
+	view_wport[i] = 2;
+	view_hport[i] = 2;
 	view_camera[i] = camera_create_view(view_xport[i], view_yport[i], view_wport[i] ,view_hport[i]);
 	//view_surface_id[i] = surface_create(view_w,view_h);
 	
 }
 
-
+show_debug_message("view_hport[0]: " + string( view_visible[0]) + " view_hport[1]: " + string( view_visible[1]) + " view_hport[2]: " + string( view_visible[2]) )
 //camera_set_begin_script(view_camera[0],sr_cam_begin);
 //camera_set_end_script(view_camera[0],sr_cam_end);
 

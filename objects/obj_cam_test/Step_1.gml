@@ -14,13 +14,13 @@ if(timeline_running && timeline_index == tm_portail_open){
 		var aniChanel = animcurve_get_channel(aniTmPortail_struct,"speed_open");
 		var aniSpeed = animcurve_channel_evaluate(aniChanel,t);
 		
-		var delta = t*(view_h/(nbView)) * aniSpeed;
+		var delta = (view_h/(nbView)) * aniSpeed;
 		for(var i  = 0; i < nbView-1 ; i++){
 				var _player = instance_find(obj_player_new,i);
 				//view_visible[i] = true;
 				view_xport[i] = 0;
 				//view_yport[i] = i*view_h/nbView		///// <======= modif 
-				view_yport[i] = i * view_hport[0];		///// <======= modif 
+				view_yport[i] = i * view_hport[i-1];		///// <======= modif 
 				view_wport[i] = view_w;
 				view_hport[i] = view_h/(nbView-1) - delta/(nbView-1) ;
 				view_camera[i] = camera_create_view(view_xport[0], _player.y, view_w ,view_hport[i]);
