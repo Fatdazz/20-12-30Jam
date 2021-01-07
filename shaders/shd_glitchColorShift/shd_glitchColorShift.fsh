@@ -11,8 +11,8 @@ uniform sampler2D Texture01;
 uniform float     iTime;
 
 
-float speed = 0.1;
-float amplitude = .002;
+float speed = .1;
+float amplitude = .2;
 
 
 vec4 rgbShift( vec2 p , vec4 shift) {
@@ -42,8 +42,9 @@ void main()
 	shift *= vec4(amplitude,amplitude,amplitude,1.0);
 	c += rgbShift(v_vTexcoord, shift);
 	//shift.w= 0;
-	//c = vec4(shift.w/1.5,1.0,1.0,1.0);
+	//c = vec4(1.0,1.0,1.0,1.0);
     gl_FragColor = vec4(c.rgb,texture2D( gm_BaseTexture,v_vTexcoord).a);
+	//gl_FragColor = c;
 }
 
 

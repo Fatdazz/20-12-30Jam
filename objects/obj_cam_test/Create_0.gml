@@ -53,8 +53,8 @@ uni_uvB = shader_get_uniform( shd_glitchColorShift, "u_vB" );
  t_sprite = sprite_get_texture( spr_rgbNoiseSmall, 0 );
 #endregion
 
-isGlich = true;
-adressGlachCam = pointer_null;
+isGlich = false;
+//adressGlachCam = pointer_null;
 timeline_index = tm_portail_open;
 aniTmPortail_struct = animcurve_get(Ani_tm_portail);
 
