@@ -18,6 +18,7 @@
     {"id":{"name":"obj_platforme","path":"objects/obj_platforme/obj_platforme.yy",},"order":1,},
     {"id":{"name":"spr_plateforme_M","path":"sprites/spr_plateforme_M/spr_plateforme_M.yy",},"order":1,},
     {"id":{"name":"obj_particule","path":"objects/obj_particule/obj_particule.yy",},"order":1,},
+    {"id":{"name":"shd_glich","path":"shaders/shd_glich/shd_glich.yy",},"order":3,},
     {"id":{"name":"spr_portail_V","path":"sprites/spr_portail_V/spr_portail_V.yy",},"order":1,},
     {"id":{"name":"rm_02","path":"rooms/rm_02/rm_02.yy",},"order":5,},
     {"id":{"name":"obj_player_02","path":"objects/obj_player_02/obj_player_02.yy",},"order":1,},
