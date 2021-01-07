@@ -9,10 +9,11 @@ varying vec4 v_vA;
 
 uniform sampler2D Texture01;
 uniform float     iTime;
+uniform vec2	  iResolution;
 
 
 float speed = .1;
-float amplitude = .2;
+float amplitude = .02;
 
 
 vec4 rgbShift( vec2 p , vec4 shift) {

@@ -72,7 +72,6 @@
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"order":0,},
     {"id":{"name":"sr_cam_begin","path":"scripts/sr_cam_begin/sr_cam_begin.yy",},"order":5,},
     {"id":{"name":"spr_crabe_BMV","path":"sprites/spr_crabe_BMV/spr_crabe_BMV.yy",},"order":0,},
-    {"id":{"name":"ani_jump","path":"animcurves/ani_jump/ani_jump.yy",},"order":0,},
     {"id":{"name":"ani_player","path":"animcurves/ani_player/ani_player.yy",},"order":1,},
     {"id":{"name":"spr_oiseau_B","path":"sprites/spr_oiseau_B/spr_oiseau_B.yy",},"order":1,},
     {"id":{"name":"get_inputsNew","path":"scripts/get_inputsNew/get_inputsNew.yy",},"order":4,},

@@ -8,6 +8,14 @@ attribute vec2 in_TextureCoord;              // (u,v)
 
 varying vec2 v_vTexcoord;
 varying vec4 v_vColour;
+varying vec2 v_vTexcoord_B;
+varying vec4 v_vB;
+varying vec4 v_vA;
+
+uniform vec4   u_vA;
+uniform vec4   u_vB;
+
+
 
 void main()
 {
@@ -16,4 +24,8 @@ void main()
     
     v_vColour = in_Colour;
     v_vTexcoord = in_TextureCoord;
+	v_vTexcoord_B = u_vB.xy + ( in_TextureCoord - u_vA.xy ) * u_vB.zw / u_vA.zw;
+	v_vB = u_vB;
+	v_vA = u_vA;
+	
 }

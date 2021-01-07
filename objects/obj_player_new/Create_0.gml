@@ -6,8 +6,6 @@ lockJumpTime = false;
 speedh = 0;
 speedv = 0;
 
-var ty =0;
-global.dkd = 0 ;
 
 aniPlayer_struct = animcurve_get(ani_player);
 partSystem = part_system_create();
