@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "spr_rocher_M",
-    "path": "sprites/spr_rocher_M/spr_rocher_M.yy",
+    "name": "spr_plateforme_M",
+    "path": "sprites/spr_plateforme_M/spr_plateforme_M.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_Comp_Colision",
-    "path": "objects/obj_Comp_Colision/obj_Comp_Colision.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,

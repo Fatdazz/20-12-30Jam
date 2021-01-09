@@ -2,20 +2,20 @@
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
-  "origin": 6,
+  "origin": 9,
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 50,
+  "bbox_right": 53,
   "bbox_top": 7,
-  "bbox_bottom": 99,
+  "bbox_bottom": 102,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 50,
-  "height": 100,
+  "width": 55,
+  "height": 110,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"68d595f3-0eae-48d1-9f86-9c46025a3eaf","path":"sprites/spr_tonneau/spr_tonneau.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"68d595f3-0eae-48d1-9f86-9c46025a3eaf","path":"sprites/spr_tonneau/spr_tonneau.yy",},"LayerId":{"name":"36571883-f4f5-4ce8-9cd8-36ef306b20cc","path":"sprites/spr_tonneau/spr_tonneau.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_tonneau","path":"sprites/spr_tonneau/spr_tonneau.yy",},"resourceVersion":"1.0","name":"68d595f3-0eae-48d1-9f86-9c46025a3eaf","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"242c45ec-f27c-4e7f-8170-41e0647a78fe","path":"sprites/spr_tonneau/spr_tonneau.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"242c45ec-f27c-4e7f-8170-41e0647a78fe","path":"sprites/spr_tonneau/spr_tonneau.yy",},"LayerId":{"name":"f88d5e6b-3dc7-41a9-8187-fbe5134264b7","path":"sprites/spr_tonneau/spr_tonneau.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_tonneau","path":"sprites/spr_tonneau/spr_tonneau.yy",},"resourceVersion":"1.0","name":"242c45ec-f27c-4e7f-8170-41e0647a78fe","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_tonneau","path":"sprites/spr_tonneau/spr_tonneau.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"95a72514-0c02-4110-95d6-9295bca9a410","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"68d595f3-0eae-48d1-9f86-9c46025a3eaf","path":"sprites/spr_tonneau/spr_tonneau.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"77311777-04f0-4584-a907-1ea74150fec7","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"242c45ec-f27c-4e7f-8170-41e0647a78fe","path":"sprites/spr_tonneau/spr_tonneau.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -55,7 +55,7 @@
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
     "xorigin": 0,
-    "yorigin": 100,
+    "yorigin": 103,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_tonneau","path":"sprites/spr_tonneau/spr_tonneau.yy",},
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"36571883-f4f5-4ce8-9cd8-36ef306b20cc","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f88d5e6b-3dc7-41a9-8187-fbe5134264b7","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "spr_tonneau",
