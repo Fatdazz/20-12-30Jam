@@ -55,6 +55,7 @@
     {"id":{"name":"obj_shader","path":"objects/obj_shader/obj_shader.yy",},"order":26,},
     {"id":{"name":"obj_roomSelect","path":"objects/obj_roomSelect/obj_roomSelect.yy",},"order":27,},
     {"id":{"name":"tm_portail_open","path":"timelines/tm_portail_open/tm_portail_open.yy",},"order":0,},
+    {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"order":0,},
     {"id":{"name":"obj_spawn_player","path":"objects/obj_spawn_player/obj_spawn_player.yy",},"order":29,},
     {"id":{"name":"spr_sol","path":"sprites/spr_sol/spr_sol.yy",},"order":1,},
     {"id":{"name":"obj_player_g","path":"objects/obj_player_g/obj_player_g.yy",},"order":4,},
