@@ -26,7 +26,7 @@ if(timeline_running && timeline_index == tm_portail_open){
 				if (i!=0) view_yport[i] = i * view_hport[i-1];		///// <======= modif 
 				view_wport[i] = view_w;
 				view_hport[i] = view_h/(nbView-1) - delta/(nbView-1) ;
-				view_camera[i] = camera_create_view(view_xport[0], _player.y, view_w ,view_hport[i]);
+				//view_camera[i] = camera_create_view(view_xport[0], _player.y, view_w ,view_hport[i]);  // mettre ça dans la chronologie
 				
 		}
 				var _player = instance_find(obj_player_new,nbView-1);
@@ -35,20 +35,11 @@ if(timeline_running && timeline_index == tm_portail_open){
 				view_yport[nbView-1] = view_h - delta; 
 				view_wport[nbView-1] = view_w;
 				view_hport[nbView-1] = delta;
-				view_camera[nbView-1] = camera_create_view(view_xport[0], _player.y, view_w ,view_hport[nbView-1]);
+				view_camera[nbView-1] = camera_create_view(view_xport[0], _player.y, view_w ,view_hport[nbView-1]); // mettre ça dans la chronologie
 				
-		
-		
-		//show_debug_message(view_h/(nbView-1) - delta/(nbView-1));
-		//surface_resize(fboGlichRead,view_w,view_hport[0]);
-		//surface_resize(fboGlichWrite,view_w,view_hport[0]);
-		//_uvs_a = texture_get_uvs(surface_get_texture(fboGlichRead));
 
 }
-//if(!timeline_running){
-//	if(surface_get_height(fboGlichRead)!= view_h/nbView) surface_resize(fboGlichRead,view_w,view_h/nbView);
-//	if(surface_get_height(fboGlichWrite)!= view_h/nbView) surface_resize(fboGlichWrite,view_w,view_h/nbView);
-//}
+
 
 #endregion
 
@@ -60,7 +51,8 @@ var _max = 0;
 
 
 for(var i = 0; i < nbView; i++){
-
+	camera_set_view_size(view_camera[i],view_wport[i],view_hport[i]);
+	
 	var _player = instance_find(obj_player_new,i);
 	
 	if(_player.x > x + view_w *(1-deltaW)){ x+= _player.x - ( x + view_w *(1-deltaW)); }
@@ -72,8 +64,18 @@ for(var i = 0; i < nbView; i++){
 	
 	//if(_player.y > _yCam + _hCam*(1-deltaH)){ _yCam  +=_player.y - (_yCam +_hCam*(1-deltaH)); show_debug_message(" camera fin etape ") }
 	//if(_player.y < _yCam + _hCam* deltaH)   { _yCam  -= (_yCam + _hCam*deltaH) -_player.y   ;  show_debug_message(" camera fin etape2 ")}
-	_yCam = _player.y - view_hport[i]/2;//- view_hport[i]/2 ;
+	//_yCam = _player.y - view_hport[i]/2;//- view_hport[i]/2 ;
+	
+	
+	if(_player.y > _yCam + _hCam*(1-deltaH)){ _yCam  +=_player.y - (_yCam +_hCam*(1-deltaH)); show_debug_message(" cam inf "); }
+	if(_player.y < _yCam + _hCam* deltaH)   { _yCam  -= (_yCam + _hCam*deltaH) -_player.y   ; show_debug_message(" cam sup ");}
+	
+	
+	clamp(x, 0 + 100, view_w - 100); // passer en parametre 
+	//clamp(_yCam,)
+	
 	camera_set_view_pos(view_camera[i], x , _yCam );
+	
 	//camera_set_view_pos(view_camera[i], x , _yCam );
 }
 #endregion
